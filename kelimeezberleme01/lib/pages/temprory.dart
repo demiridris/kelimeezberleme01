@@ -10,8 +10,17 @@ class TemproryPage extends StatefulWidget {
 class _TemproryPageState extends State<TemproryPage> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Scaffold(
+      body: Container(
+        color: Colors.white,
+        child: Center(
+          child: Column(
+            children: [
+              Image.asset("assets/images/logo.png"),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
